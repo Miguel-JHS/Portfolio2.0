@@ -1,39 +1,139 @@
 body {
     background-color: #eaeafc;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
 }
 
 nav {
     background-color: white;
-    width: 355px;
-    height: 31px;
+    width: 532px;
     border-radius: 20px;
     text-align: center;
-    margin-left: 900px;
+    float: right;
+    padding: 5px 2px 5px 2px;
     border: 1px solid rgba(0, 0, 0, 0.39);
 }
 
 nav a {
     display: inline-block;
-    color: #2b2a2a;
+    color: #333333;
     font-weight: bold;
-    font-size: 9px;
+    font-size: 15px;
     text-decoration: none;
-    padding: 6px;
-    margin-top: 2.4px;
+    padding: 10px;
     border-radius: 20px;
     
 }
 
 nav a:hover {
-    background-color: rgb(209, 209, 209);
+    background-color: #CCFBF1;
     transition: 0.5s;
     border-radius: 20px;
 }
 
 nav img {
     position: relative;
-    top: 3px;
-    width: 12.5px;
-    height: 12.5px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.inicio h1 {
+    color: #111111;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+}
+
+.inicio p {
+    color: #666666;
+    text-align: center;
+
+    margin: 0px;
+}
+
+.inicio img {
+    position: relative;
+    left: 830px;
+    width: 250px;
+    height: 170px;
+    margin-top: 100px;
+
+}
+
+.redes a {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+
+    color: #111111;
+    text-decoration: none;
+
+    background-color: white;
+    width: 700px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 1px solid #ffffff00;
+    box-shadow: 0px 3px 5px 3px #00000025;
+}
+
+.redes a:hover {
+    border: 1px solid #0f766e;
+    color: #0f766e;
+    box-shadow: 0 0 30px #0f766d4d;
+    transition: 0.5s;
+}
+
+.redes span {
+    grid-column: 2;
+}
+
+.redes img {
+    width: 40px;
+    height: 40px;
+}
+
+hr {
+    border-top: 1px solid #d0d0d0;
+    width: 720px;
+    margin: 40px auto;
+}
+
+.sobre a {
+    color: #6B7280;
+    text-decoration: none;
+}
+
+.sobre {
+    text-align: center;
+    margin: 0px;
+}
+
+.formacoes h2  {
+    color: #0F766E;
+    text-align: center;
+}
+
+.certificados {
+    display: grid;
+    grid-template-columns: 280px 280px;
+    justify-content: center;
+    
+}
+
+.certificado {
+    background-color: white;
+    color: #0F766E;
+    width: 280px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.151);
+}
+
+.certificado p {
+    color: #6B7280;
+    font-size: 15px;
+
 }
