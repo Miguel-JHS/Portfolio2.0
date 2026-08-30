@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: #eaeafc;
     font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
@@ -102,6 +107,7 @@ hr {
 
 .sobre a {
     color: #6B7280;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -112,28 +118,91 @@ hr {
 
 .formacoes h2  {
     color: #0F766E;
+    font-size: 27px;
     text-align: center;
 }
 
 .certificados {
     display: grid;
-    grid-template-columns: 280px 280px;
+    grid-template-columns: 340px 340px;
+    gap: 20px;
     justify-content: center;
-    
 }
 
 .certificado {
-    background-color: white;
+    background-color: #ffffff;
     color: #0F766E;
-    width: 280px;
-    height: 300px;
-    padding: 10px;
+    width: 340px;
+    padding: 40px;
     border-radius: 15px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.151);
+    box-shadow: 2px 2px 10px #00000027;
 }
 
 .certificado p {
     color: #6B7280;
-    font-size: 15px;
+    font-size: 14px;;
+}
 
+.certificado a {
+    color: #111111;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 7px;
+    float: right;
+    border-radius: 10px;
+}
+
+.certificado a:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.199);
+    transition: 0.5s;
+}
+
+.certificado span {
+    font-size: 15px;
+    position: relative;
+    top: 7px;
+}
+
+.meuscert {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.meuscert a {
+    color: #111111;
+    text-decoration: none;
+    
+}
+
+.meuscert span:hover {
+    background-color: #00000023;
+    color: rgb(81, 81, 255);
+    transition: 0.5s;
+}
+
+.meuscert span {
+    background-color: #eaeafc;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #00000023;
+}
+
+.skills h2 {
+    color: #0F766E;
+    font-size: 27px;
+    text-align: center;
+}
+
+.habilidades span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.habilidades img {
+    width: 50px;
+    height: 50px;
 }
