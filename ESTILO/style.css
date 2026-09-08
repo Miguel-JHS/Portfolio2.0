@@ -52,7 +52,6 @@ nav img {
 .inicio p {
     color: #666666;
     text-align: center;
-
     margin: 0px;
 }
 
@@ -140,7 +139,7 @@ hr {
 
 .certificado p {
     color: #6B7280;
-    font-size: 14px;;
+    font-size: 14px;
 }
 
 .certificado a {

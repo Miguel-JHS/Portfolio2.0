@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #eaeafc;
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+}
+
+nav {
+    background-color: white;
+    width: 532px;
+    border-radius: 20px;
+    text-align: center;
+    float: right;
+    padding: 5px 2px 5px 2px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+nav a {
+    display: inline-block;
+    color: #333333;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+nav a:hover {
+    background-color: #CCFBF1;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+nav img {
+    position: relative;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.titulo h1 {
+    color: #0F766E;
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.titulo p {
+    color: #111111;
+    margin: 10px 0px 50px;
+    text-align: center;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    text-align: center;
+    justify-content: center;
+}
+
+.conteudo h3 {
+    color: #0F766E;
+}
+
+.conteudo p {
+    color: #6B7280;
+    font-size: 16px;
+    margin: 25px 40px 40px 40px;
+    line-height: 1.5;
+}
+
+.img {
+    background-color: #d3e5eb;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo img {
+    width: 40px;
+    height: 40px;
+}
+
+.eu {
+    background-color:#ffffff;;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.estudos {
+    background-color: white;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hobbies {
+    background-color: white;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.eu:hover {
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.15);
+}
+
+.estudos:hover {
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.15);
+}
+
+.hobbies:hover {
+    
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
