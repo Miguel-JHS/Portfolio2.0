@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #eaeafc;
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+}
+
+nav {
+    background-color: white;
+    width: 532px;
+    border-radius: 20px;
+    text-align: center;
+    float: right;
+    padding: 5px 2px 5px 2px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+nav a {
+    display: inline-block;
+    color: #333333;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+nav a:hover {
+    background-color: #CCFBF1;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+nav img {
+    position: relative;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+}
