@@ -26,12 +26,11 @@ nav a {
     text-decoration: none;
     padding: 10px;
     border-radius: 20px;
-    
+    transition: 0.5s;
 }
 
 nav a:hover {
     background-color: #CCFBF1;
-    transition: 0.5s;
     border-radius: 20px;
 }
 
@@ -80,13 +79,14 @@ nav img {
     border-radius: 15px;
     border: 1px solid #ffffff00;
     box-shadow: 0px 3px 5px 3px #00000025;
+    transition: 0.5s;
 }
 
 .redes a:hover {
     border: 1px solid #0f766e;
     color: #0f766e;
     box-shadow: 0 0 30px #0f766d4d;
-    transition: 0.5s;
+    transform: translateY(-1px);
 }
 
 .redes span {
@@ -108,11 +108,11 @@ hr {
     color: #6B7280;
     font-size: 15px;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .sobre a:hover {
     color: #81848a;
-    transition: 0.5s;
 }
 
 .sobre {
@@ -155,11 +155,12 @@ hr {
     padding: 7px;
     float: right;
     border-radius: 10px;
+    transition: 0.5s;
 }
+
 
 .certificado a:hover {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.199);
-    transition: 0.5s;
 }
 
 .certificado span {
@@ -177,13 +178,6 @@ hr {
 .meuscert a {
     color: #111111;
     text-decoration: none;
-    
-}
-
-.meuscert span:hover {
-    background-color: #00000023;
-    color: rgb(81, 81, 255);
-    transition: 0.5s;
 }
 
 .meuscert span {
@@ -192,7 +186,14 @@ hr {
     padding: 10px;
     border-radius: 15px;
     border: 1px solid #00000023;
+    transition: 0.5s;
 }
+
+.meuscert span:hover {
+    background-color: #00000023;
+    color: rgb(81, 81, 255);
+}
+
 
 .skills h2 {
     color: #0F766E;
@@ -200,14 +201,38 @@ hr {
     text-align: center;
 }
 
-.habilidades span {
+.habilidades {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.habilidade {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
+    background-color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.12);
+    transition: 0.5s;
 }
 
-.habilidades img {
+.habilidade:hover {
+    transform: translateY(-4px);
+}
+
+.habilidade img {
     width: 50px;
     height: 50px;
+}
+
+footer {
+    color: #6B7280;
+    font-size: 12px;
+    text-align: center;
+    margin: 40px;
 }
