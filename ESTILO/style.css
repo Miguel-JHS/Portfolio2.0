@@ -8,12 +8,17 @@ body {
     font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
 }
 
+header {
+    position: fixed;
+    right: 10px;
+}
+
 nav {
     background-color: white;
-    width: 532px;
+    max-width: 100%;
+    width: 440px;
     border-radius: 20px;
     text-align: center;
-    float: right;
     padding: 5px 2px 5px 2px;
     border: 1px solid rgba(0, 0, 0, 0.39);
 }
@@ -55,8 +60,7 @@ nav img {
 }
 
 .inicio img {
-    position: relative;
-    left: 830px;
+    display: block;
     width: 250px;
     height: 170px;
     margin: auto;
@@ -72,6 +76,7 @@ nav img {
     text-decoration: none;
 
     background-color: white;
+    max-width: 90%;
     width: 700px;
     text-align: center;
     padding: 10px;
@@ -100,6 +105,7 @@ nav img {
 
 hr {
     border-top: 1px solid #d0d0d0;
+    max-width: 90%;
     width: 720px;
     margin: 40px auto;
 }

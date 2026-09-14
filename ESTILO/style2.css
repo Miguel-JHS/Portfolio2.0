@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+header {
+    position: fixed;
+    right: 10px;
+}
 
 body {
     background-color: #eaeafc;
@@ -10,7 +14,7 @@ body {
 
 nav {
     background-color: white;
-    width: 532px;
+    width: 440px;
     border-radius: 20px;
     text-align: center;
     float: right;

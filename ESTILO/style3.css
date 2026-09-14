@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+header {
+    position: fixed;
+    right: 10px;
+}
 
 body {
     background-color: #eaeafc;
@@ -10,7 +14,8 @@ body {
 
 nav {
     background-color: white;
-    width: 532px;
+    
+    width: 440px;
     border-radius: 20px;
     text-align: center;
     float: right;
@@ -26,11 +31,12 @@ nav a {
     text-decoration: none;
     padding: 10px;
     border-radius: 20px;
-    transition: 0.5s;
+    
 }
 
 nav a:hover {
     background-color: #CCFBF1;
+    transition: 0.5s;
     border-radius: 20px;
 }
 
@@ -41,65 +47,81 @@ nav img {
     height: 16px;
 }
 
-.titulo h1 {
+h2 {
     color: #0F766E;
     font-size: 40px;
-    margin: 25px;
+    margin: 10px 10px 40px 10px;
     margin-top: 70px;
     text-align: center;
 }
 
-.titulo p {
-    color: #111111;
-    margin: 10px 0px 50px;
+.um {
+    color: #0F766E;
+    font-size: 40px;
+    margin: 10px 10px 40px 10px;
+    margin-top: 70px;
     text-align: center;
 }
 
-.certificados {
+.habilidades1 {
     display: grid;
-    grid-template-columns: 340px 340px 340px;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.dois {
+    color: #0F766E;
+    font-size: 40px;
+    margin: 10px 10px 40px 10px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.habilidades2 {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
     gap: 20px;
     justify-content: center;
 }
 
-.certificado {
-    background-color: #ffffff;
+.tres {
     color: #0F766E;
-    width: 340px;
-    padding: 40px;
+    font-size: 40px;
+    margin: 10px 10px 40px 10px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.habilidades3 {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.habilidade {
+    background-color: white;
+    padding: 10px;
     border-radius: 15px;
-    box-shadow: 2px 2px 10px #00000027;
-}
-
-.certificado p {
-    color: #6B7280;
-    line-height: 1.5;
     font-size: 14px;
-}
-
-.certificado a {
-    color: #111111;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 7px;
-    float: right;
-    border-radius: 10px;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.12);
     transition: 0.5s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-.certificado a:hover {
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.199);
+.habilidade:hover {
+    transform: translateY(-5px);
 }
 
-.certificado span {
-    font-size: 15px;
-    position: relative;
-    top: 7px;
+.habilidade img {
+    width: 65px;
+    height: 65px;
 }
-
-
-
 
 
 
@@ -107,5 +129,5 @@ footer {
     color: #6B7280;
     font-size: 12px;
     text-align: center;
-    margin: 40px;
+    margin: 29px 10px 29px 10px;
 }
