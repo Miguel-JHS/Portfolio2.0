@@ -1,0 +1,39 @@
+@media (max-width: 1070px) {
+    .certificados {
+        grid-template-columns: 340px 340px;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .certificados {
+        grid-template-columns: 340px;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 1020px) {
+    .conteudo {
+        grid-template-columns: 340px;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .habilidades1, .habilidades2, .habilidades3 {
+        grid-template-columns: 340px 340px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 737px) {
+    .habilidades1, .habilidades2, .habilidades3 {
+        grid-template-columns: 340px;
+        justify-content: center;
+    }
+}
