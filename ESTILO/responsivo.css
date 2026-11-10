@@ -1,7 +1,6 @@
-@media (max-width: 690px) {
+@media (max-width: 390px) {
     .cabeça {
-        position: fixed;
-        left: 100%;
+        
     }
     
 }
@@ -25,7 +24,7 @@
 
 @media (max-width: 390px) {
     .habilidades {
-        grid-template-columns: 300px 300px;
+        grid-template-columns: 170px 170px;
         justify-content: center;
     }
 }
