@@ -1,3 +1,12 @@
+@media (max-width: 690px) {
+    header {
+        position: fixed;
+        left: 430px;
+        max-width: 30%;
+    }
+    
+}
+
 @media (max-width: 1070px) {
     .certificados {
         grid-template-columns: 340px 340px;
@@ -13,6 +22,12 @@
     }
 }
 
+@media (max-width: 390px) {
+    .habilidades {
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+    }
+}
 
 @media (max-width: 1020px) {
     .conteudo {
@@ -21,7 +36,6 @@
         gap: 30px;
     }
 }
-
 
 
 @media (max-width: 800px) {
