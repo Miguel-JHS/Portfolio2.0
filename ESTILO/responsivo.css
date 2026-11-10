@@ -1,7 +1,7 @@
 @media (max-width: 390px) {
     header {
         position: fixed;
-        left: 390px;
+        left: 350px;
         max-width: 30%;
     }
     
@@ -9,7 +9,7 @@
 
 @media (max-width: 390px) {
     nav a {
-        margin: 10px;
+        margin: 20px;
     }
     
 }
