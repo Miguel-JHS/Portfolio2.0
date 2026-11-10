@@ -14,7 +14,7 @@ body {
 
 nav {
     background-color: white;
-    width: 440px;
+    max-width: 100%;
     border-radius: 20px;
     text-align: center;
     float: right;
@@ -62,7 +62,8 @@ nav img {
 
 .conteudo {
     display: grid;
-    grid-template-columns: 360px 360px 360px;
+    grid-template-columns: 320px 320px 320px;
+    gap: 28px;
     text-align: center;
     justify-content: center;
 }
@@ -95,46 +96,16 @@ nav img {
     height: 40px;
 }
 
-.eu {
+.eu, .estudos, .hobbies {
     background-color:#ffffff;;
-    width: min(320px, 90%);
-    width: 320px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transition: 0.5s;
-}
-
-.estudos {
-    background-color: white;
-    width: min(320px, 90%);
-    width: 320px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transition: 0.5s;
-}
-
-.hobbies {
-    background-color: white;
-    width: min(320px, 90%);
-    width: 320px;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transition: 0.5s;
 }
 
 
-.eu:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
-}
-
-.estudos:hover { 
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
-}
-    
-
-.hobbies:hover {
+.eu:hover, .estudos:hover, .hobbies:hover  {
     transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }

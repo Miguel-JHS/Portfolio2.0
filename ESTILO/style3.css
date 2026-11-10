@@ -14,8 +14,7 @@ body {
 
 nav {
     background-color: white;
-    
-    width: 440px;
+    max-width: 100%;
     border-radius: 20px;
     text-align: center;
     float: right;
